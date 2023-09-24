@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap');
+
+body {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #D9F6FD;
+}
+
+section {
+    padding: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+h1, h2, h3 {
+    color: #324B50;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    color: #324B50;
+}
+
+img {
+    border-radius: 4px;
+}
+
+/* NAV */
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #7AB4C1;
+    padding: 15px;
+    padding-left: 100px;
+    gap: 20px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+nav a:hover {
+    color: #324B50;
+}
+
+/* PRICE*/
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: 3px solid #324B50;
+    border-bottom: 3px solid #324B50;
+}
+
+header h2 {
+    padding-bottom: 20px;
+}
+
+header p {
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+.price-text {
+    padding: 75px;
+}
+
+.button {
+    background-color: #7AB4C1;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.button:hover {
+    background-color: #324B50;
+}
+
+/* DESCRIPTION */
+
+#description {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 100px;
+}
+
+#description h3 {
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.prosandcons {
+    background-color: #bae8f1;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 0px;
+    border-radius: 3px;
+    flex: 1;
+}
+
+.desc-text {
+    flex: 2;
+}
+/* RELATED */
+
+#related {
+    background-color: #bae8f1;
+}
+
+#related h2, h3 {
+    display: flex;
+    justify-content: center;
+}
+
+#related img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-info {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.andereproducten {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #324B50;
+    padding: 25px;
+}
+
+footer a:hover {
+    color: #bae8f1;
+}
